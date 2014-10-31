@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: white;
+}
+#container {
+	height: 100%;
+	min-height: 100%;
+}
+ul.thumbs {
+	display: block;
+	padding: 20px;
+	white-space: nowrap;
+	list-style: none;
+}
+ul.thumbs:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+ul.thumbs li {
+	display: inline-block;
+	margin: 0 10px 0 0;
+	vertical-align: top;
+	font-size: 0;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.45)
+}
+ul.thumbs li a {
+	display: inline-block;
+	text-decoration: none;
+	width: 120px;
+	height: 152px;
+	overflow: hidden;
+}
+ul.thumbs li a img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
